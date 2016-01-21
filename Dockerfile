@@ -1,7 +1,7 @@
-FROM centos:7
+FROM centos:6.7
 
-#ENV GOGS_VERSION 0.6.1
-ENV GOGS_VERSION 0.6.2-openshift-m2
+#ENV GOGS_VERSION 0.8.22
+ENV GOGS_VERSION 0.8.22-openshift-m2
 ENV ADMIN_USER_CREATE true
 ENV ADMIN_USER_NAME gogsadmin
 ENV ADMIN_USER_EMAIL gogsadmin@fabric8.local
